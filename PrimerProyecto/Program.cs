@@ -1,4 +1,5 @@
-﻿//Versión 
+﻿using PrimerProyecto.Clases;
+//Versión 
 //namespace MiApp
 //{
 //    internal class Program
@@ -10,47 +11,38 @@
 //    }
 //}
 
-//Versión top level statement
-//Imprimi mensaje en consola.
-Console.WriteLine("Hello, World!");
-Console.Write("Hola Mundo, que tal");
+#region Clase 1 de noviembre 2025
+//Clase 1 de noviembre 2025
+//Class1 class1 = new Class1();
+//class1.Variables();
+#endregion
 
+#region Clase 2 del 8 de noviembre del 2025
+Class2 class2 = new Class2();
 
-//Variables y tipos de datos
+//Atajos
+//Para comentar codigo utilicen el atajo de teclado ctrl + c + k
+//Para descomentar codigo utilicen el atajo de teclado ctrl + k + u
+//Para duplicar una linea utilicen el atajo ctrl + d\
+//Para mover una linea con las flechitas del teclado pueden utilizar el atajo alt + flechitas arriba o abajo
+//Para navegar por el codigo de manera horizontal pueden usar el atajo shift + ruedita del ratón
 
-//Numeros
-int numero1 = 0;
-double numero2 = 0;
-float numero3 = 0;
-decimal numero4 = 0;
-long numero5 = 0;
+//Strings
+//Console.WriteLine(class2.EnviarMensajeString());
 
-//string, puede ser un array de chars
-string mensaje = "hola";
+//Datos numericos
+//class2.DatosNumericos();
 
-//este solo almacena un caracter
-char valor = '0';
+//Datos por referencia
+//class2.DatosReferencia();
 
-//bool, true o false
-bool esVerdadero = false;
-bool esFalso = true;
+//Datos Listas y arreglos
+//class2.ArreglosListas();
 
-//list
-List<double> doubles = new List<double>();
-doubles.Add(numero1);
-doubles.Remove(numero2);
-double.Sqrt(numero3);
+//Condicionales
+//class2.Condicionales();
 
-List<double> double1 = new List<double>();
-double1.Add(numero1);
-double1.Add(numero1);
-double1.Add(numero1);
+//Ciclos
+//class2.Ciclos();
 
-doubles.AddRange(double1);
-//a = 1
-// b= 1,3,7,4,10
-
-//arrays
-int[] numeros = { 1, 2, 45, 6, 1 };
-string[] textos =  new string[6];
-string[] textos2;
+#endregion
